@@ -4,9 +4,9 @@
       <div class="logo">AI剧本生成系统</div>
       <nav class="main-nav">
         <router-link to="/">首页</router-link>
+        <router-link to="/storyline">写故事</router-link>
         <router-link to="/character">角色创建</router-link>
         <router-link to="/scene">场景生成</router-link>
-        <router-link to="/storyline">故事线编辑</router-link>
         <router-link to="/materials">素材库</router-link>
       </nav>
       <div class="user-area">

@@ -803,5 +803,43 @@ const uploadMaterial = () => {
 
 .tag-input {
   width: 100px;
-  margin-right: 0.5rem;
-  vertical-align: bottom;
+  margin: 0;
+  
+  &.el-input {
+    .el-input__inner {
+      height: 24px;
+      line-height: 24px;
+    }
+  }
+}
+
+.el-button {
+  margin: 0;
+}
+
+// 上传对话框样式
+.dialog-footer {
+  padding-top: 1rem;
+  text-align: right;
+  
+  .el-button + .el-button {
+    margin-left: 1rem;
+  }
+}
+
+// 动画
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.material-detail {
+  animation: fadeIn 0.3s ease-out;
+}
+</style>

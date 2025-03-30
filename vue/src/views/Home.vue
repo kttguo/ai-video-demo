@@ -17,6 +17,13 @@
     <section class="features-section">
       <h2 class="section-title">核心功能</h2>
       <div class="features-grid">
+        <div class="feature-card" @click="$router.push('/storyline')">
+          <div class="feature-icon">
+            <el-icon><Connection /></el-icon>
+          </div>
+          <h3>写故事</h3>
+          <p>创建引人入胜的故事情节，打造精彩剧本</p>
+        </div>
         <div class="feature-card" @click="$router.push('/character')">
           <div class="feature-icon">
             <el-icon><User /></el-icon>
@@ -33,13 +40,7 @@
           <p>构建丰富多彩的场景，营造完美氛围</p>
         </div>
 
-        <div class="feature-card" @click="$router.push('/storyline')">
-          <div class="feature-icon">
-            <el-icon><Connection /></el-icon>
-          </div>
-          <h3>故事线编辑</h3>
-          <p>编织引人入胜的故事情节，创造精彩剧本</p>
-        </div>
+        
       </div>
     </section>
 
